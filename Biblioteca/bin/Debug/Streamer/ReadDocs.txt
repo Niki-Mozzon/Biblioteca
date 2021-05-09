@@ -1,0 +1,15 @@
+Type;Title;Year;NameAuthor1 LastNameAuthor1,NameAuthor2 LastNameAuthor2;Genre;foto.jpg;Lenght;
+
+DVD;The Silence of the Lambs;1991;Jonathan Demme;Horror;TheSilentOfTheLambs.jpg;118;
+Book;The Lord Of The Rings;1954;John Ronald Reuel Tolkien;Fantasy;TheLordOfTheRings.jpg;479;
+Book;Harry Potter and the Sorcerer's Stone;1997;Joanne Rowling;Fantasy;HarrPotterAndTheSorcerersStone.jpg;223;
+DVD;Forrest Gump;1994;Robert Zemeckis;Comedy;ForrestGump.jpg;142;
+Book;The Legend of the Condor Heroes;1957;Jin Yong;Fantasy;TheLegendOfTheCondorHeroes.jpg;382;
+DVD;Terminator;1984;James Cameron,Gale Anne Hurd;Action;Terminator.jpg;107;
+DVD;Sweeney Todd;2007;Tim Burton;Musical;SweeneyTodd.jpg;116;
+DVD;Titanic;1997;James Cameron;Romantic;Titanic.jpg;195;
+Book;The Little Prince;1943;Antoine de Saint-Exupery;Novella;TheLittlePrince.jpg;96;
+Book;Dream of the Red Chamber;1700;Cao Xueqin;Comedy;DreamOfTheRedChamber.jpg;2500;
+Book;The Hobbit;1937;John Ronald Reuel Tolkien;Fantasy;TheHobbit.jpg;304;
+Book;And Then There Were None;1939;Agatha Christie;Adventure;AndThenThereWereNone.jpg;272;
+DVD;Avengers: Infinity War;2018;Joe Russo,Anthony Russo;Action;AvengersInfinityWar.jpg;149;

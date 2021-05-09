@@ -1,0 +1,53 @@
+﻿<Window x:Class="Biblioteca.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Biblioteca"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="372" Width="450" Loaded="Window_Loaded">
+    <Grid UseLayoutRounding="False" ClipToBounds="True" Margin="0" Background="#FF3E3E3E">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="125*"/>
+            <RowDefinition Height="30*"/>
+            <RowDefinition Height="186*"/>
+        </Grid.RowDefinitions>
+        <Button x:Name="btnLogIn" Content="Log In" Margin="182,135,182,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Height="20" VerticalAlignment="Top" Grid.Row="2" BorderBrush="#00707070" Foreground="#FFE8E8E8" Click="btnLogIn_Click">
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0" Opacity="0.25">
+                    <GradientStop Color="Black" Offset="1"/>
+                    <GradientStop Color="White"/>
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+        <TextBox x:Name="txtMail" Margin="85,35,85,0" TextWrapping="Wrap" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Height="37" VerticalAlignment="Top" Grid.Row="2" BorderBrush="#FF838383" Background="#FFB9B9B9" FontSize="16">
+            <TextBox.Foreground>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black" Offset="0"/>
+                    <GradientStop Color="Black" Offset="1"/>
+                </LinearGradientBrush>
+            </TextBox.Foreground>
+        </TextBox>
+        <PasswordBox x:Name="txtPass" Margin="100,87,100,0" VerticalAlignment="Top" Height="28" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Grid.Row="2" BorderBrush="#FF838383" Background="#FFB9B9B9" FontSize="16">
+            <PasswordBox.Foreground>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black" Offset="0"/>
+                    <GradientStop Color="Black" Offset="1"/>
+                </LinearGradientBrush>
+            </PasswordBox.Foreground>
+        </PasswordBox>
+        <Button x:Name="btnRegister" Content="Sign in now!" Margin="155,65,157,0" HorizontalContentAlignment="Center" ScrollViewer.VerticalScrollBarVisibility="Disabled" Padding="1" Click="btnRegister_Click" VerticalContentAlignment="Center" BorderBrush="#00707070" Foreground="#FFE8E8E8">
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0" Opacity="0.25">
+                    <GradientStop Color="Black" Offset="1"/>
+                    <GradientStop Color="White"/>
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+        <TextBlock Margin="10,31,10,0" TextWrapping="Wrap" Text="Didn't you sign in yet?" VerticalAlignment="Top" TextAlignment="Center" Height="34" FontSize="20" FontWeight="Bold" HorizontalAlignment="Center" Width="422" Foreground="#FFE8E8E8"/>
+        <TextBlock Margin="10,1,10,0" TextWrapping="Wrap" Text="Are you already a member?" VerticalAlignment="Top" TextAlignment="Center" Height="34" FontSize="15" HorizontalAlignment="Center" Width="422" Grid.Row="2" Foreground="#FFE8E8E8"/>
+        <Label Content="Email:" HorizontalAlignment="Left" Margin="45,35,0,0" Grid.Row="2" VerticalAlignment="Top" Width="40" Foreground="White"/>
+        <Label Content="Password:" HorizontalAlignment="Left" Margin="38,89,0,0" Grid.Row="2" VerticalAlignment="Top" Foreground="White"/>
+
+    </Grid>
+</Window>
